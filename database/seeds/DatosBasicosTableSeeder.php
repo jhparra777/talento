@@ -1,0 +1,137 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class DatosBasicosTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('datos_basicos')->insert([
+            'numero_id'                  => '1140426030',
+            'user_id'                    => 1,
+            'nombres'                    => 'Miguel Alberto',
+            'primer_apellido'            => 'Cortés',
+            'segundo_apellido'           => 'Kocc',
+            'telefono_fijo'              => '8456345',
+            'telefono_movil'             => '3195214910',
+            'ciudad_expedicion_id'       => 1,
+            'departamento_expedicion_id' => 11,
+            'ciudad_expedicion_id'       => 1,
+            'fecha_expedicion'           => '2014-07-04',
+            'fecha_nacimiento'           => '1991-09-08',
+            'pais_nacimiento'            => 170,
+            'departamento_nacimiento'    => 41,
+            'ciudad_nacimiento'          => 170,
+            'genero'                     => 1,
+            'estado_civil'               => 3,
+            'aspiracion_salarial'        => 3,
+            'departamento_residencia'    => 11,
+            'ciudad_residencia'          => 1,
+            'direccion'                  => 'Carre 22 # 81-80 Ofi 102',
+            'direccion_formato'          => '{"direccion_1":null,"direccion_2":null,"direccion_...',
+            'datos_basicos_count'        => 100,
+            'perfilamiento_count'        => 100,
+            'experiencias_count'         => 100,
+            'estudios_count'             => 100,
+            'referencias_count'          => 100,
+            'grupo_familiar_count'       => 100,
+            'ciudad_id'                  => 1,
+            'departamento_id'            => 11,
+            'pais_id'                    => 170,
+            'pais_residencia'            => 170,
+            'tipo_id'                    => 1,
+            'email'                      => 'miguelcortes9936@gmail.com',
+            'barrio'                     => 'Polo club',
+            'rh'                         => 'positivo',
+            'grupo_sanguineo'            => 'A',
+
+        ]);
+
+        DB::table('datos_basicos')->insert([
+            'numero_id'                  => '1022416948',
+            'user_id'                    => 2,
+            'nombres'                    => 'Arnulfo Andres',
+            'primer_apellido'            => 'Polo',
+            'segundo_apellido'           => 'Rubiano',
+            'telefono_fijo'              => '8456345',
+            'telefono_movil'             => '3195214910',
+            'ciudad_expedicion_id'       => 1,
+            'departamento_expedicion_id' => 11,
+            'ciudad_expedicion_id'       => 1,
+            'fecha_expedicion'           => '2014-07-04',
+            'fecha_nacimiento'           => '1991-09-08',
+            'pais_nacimiento'            => 170,
+            'departamento_nacimiento'    => 41,
+            'ciudad_nacimiento'          => 170,
+            'genero'                     => 1,
+            'estado_civil'               => 3,
+            'aspiracion_salarial'        => 3,
+            'departamento_residencia'    => 11,
+            'ciudad_residencia'          => 1,
+            'direccion'                  => 'Carre 22 # 81-80 Ofi 102',
+            'direccion_formato'          => '{"direccion_1":null,"direccion_2":null,"direccion_...',
+            'datos_basicos_count'        => 100,
+            'perfilamiento_count'        => 100,
+            'experiencias_count'         => 100,
+            'estudios_count'             => 100,
+            'referencias_count'          => 100,
+            'grupo_familiar_count'       => 100,
+            'ciudad_id'                  => 1,
+            'departamento_id'            => 11,
+            'pais_id'                    => 170,
+            'pais_residencia'            => 170,
+            'tipo_id'                    => 1,
+            'email'                      => 'apolorubiano@gmail.com',
+            'barrio'                     => 'Polo club',
+            'rh'                         => 'positivo',
+            'grupo_sanguineo'            => 'A',
+
+        ]);
+
+        DB::table('datos_basicos')->insert([
+            'numero_id'                  => '80918837',
+            'user_id'                    => 3,
+            'nombres'                    => 'Jorge Andres',
+            'primer_apellido'            => 'Ortiz',
+            'segundo_apellido'           => 'Guzman',
+            'telefono_fijo'              => '8456345',
+            'telefono_movil'             => '3167411943',
+            'ciudad_expedicion_id'       => 1,
+            'departamento_expedicion_id' => 11,
+            'ciudad_expedicion_id'       => 1,
+            'fecha_expedicion'           => '2014-07-04',
+            'fecha_nacimiento'           => '1991-09-08',
+            'pais_nacimiento'            => 170,
+            'departamento_nacimiento'    => 41,
+            'ciudad_nacimiento'          => 170,
+            'genero'                     => 1,
+            'estado_civil'               => 3,
+            'aspiracion_salarial'        => 3,
+            'departamento_residencia'    => 11,
+            'ciudad_residencia'          => 1,
+            'direccion'                  => 'Carre 22 # 81-80 Ofi 102',
+            'direccion_formato'          => '{"direccion_1":null,"direccion_2":null,"direccion_...',
+            'datos_basicos_count'        => 100,
+            'perfilamiento_count'        => 100,
+            'experiencias_count'         => 100,
+            'estudios_count'             => 100,
+            'referencias_count'          => 100,
+            'grupo_familiar_count'       => 100,
+            'ciudad_id'                  => 1,
+            'departamento_id'            => 11,
+            'pais_id'                    => 170,
+            'pais_residencia'            => 170,
+            'tipo_id'                    => 1,
+            'email'                      => 'andres8585@gmail.com',
+            'barrio'                     => 'Polo club',
+            'rh'                         => 'positivo',
+            'grupo_sanguineo'            => 'A',
+
+        ]);
+    }
+}

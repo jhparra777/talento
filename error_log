@@ -1,0 +1,2 @@
+[23-Jan-2019 02:13:22 UTC] PHP Warning:  require(/home/ptat3rs/core_pta/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ptat3rs/core_pta/bootstrap/autoload.php on line 17
+[23-Jan-2019 02:13:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/ptat3rs/core_pta/bootstrap/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/ptat3rs/core_pta/bootstrap/autoload.php on line 17

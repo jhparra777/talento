@@ -1,0 +1,350 @@
+    .container-logo{
+   
+
+    background-image: url('../img/menu.png');
+    background-size: auto 100%;
+    border-top: 7px solid #172F4A;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+
+  /*  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 5px rgba(0, 0, 0, 0.075);*/
+}
+
+footer{
+    background-color: #4E4E4E;
+    color: #fff;
+
+
+}
+.footer_css{
+    padding: 10px 0 ;
+}
+
+.lista_footer{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    border-left: 3px solid #fff;
+    padding: 5px 0;
+
+}
+.centrar_img {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.centrar_img img{
+    margin:0 20px;
+    max-width: 30%;
+}
+.lista_footer ul li a{
+    color: #fff;
+}
+.lista_footer ul{
+    list-style: none;
+    width: 100%;
+    
+   
+}
+.creditos{
+    background-color: #666666;
+    padding: 2px 0px;
+}
+.navbar-default {
+    background-image: none !important;
+    box-shadow:none;
+    border: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+.navbar-brand{
+    padding: 0px !important;
+}
+.menu{
+    /*background-color: #225ea0;*/
+}
+.menu .fa{
+    color:  #173185;
+    border: 4px solid #173185;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 1.8em;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+
+    margin: 0 auto;
+    /*    width: 400px;*/
+    text-align: center;
+    color: white;
+    justify-content:flex-end;
+    align-items:stretch;
+    flex: 1;
+    flex-wrap:wrap;
+    padding: 0 !important;
+}
+
+.menu  ul  a:hover,.active {
+   /* background-color: #f8f8f8 !important;*/
+     color:  #FF9900 !important;
+
+
+}
+.menu ul  a:hover .fa{
+    color:  #FF9900 !important;
+    border: 4px solid #FF9900;
+}
+.lista-permisos,.lista-permisos ol{
+    list-style: none;
+}
+.menu ul a{
+
+    width: 115px;
+    color:  #225ea0;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    padding: 10px 8px;
+    line-height: 100%;
+
+}
+.user_login{
+    background-image: url('../img/menu2.png');
+    border-radius: 0 5px 5px 5px ;
+    background-size: auto 100% ;
+    margin-top: -7px;
+}
+.user_login  li a{
+    color: #fff !important;
+}
+.open li a {
+    color: #C0C0C0 !important;
+}
+//SUBMENU
+
+
+.menu .menu_2{
+    height: 0px !important;
+    overflow: hidden !important;
+    background: red !important; 
+
+}
+.menu .menu_2 ul{
+      border-top: 2px solid #cacaca;
+}
+.req_submenu ol,.menu .menu_2 {
+  
+
+    overflow: hidden !important;
+    /*background-color: #f8f8f8;*/
+    color: #cacaca;
+    display: flex;
+    list-style: none;
+    transition: height 1s;
+    margin: 0 auto;
+    /*    width: 400px;*/
+    text-align: center;
+    color: white;
+    justify-content:center;
+    align-items:stretch;
+    flex: 1;
+    flex-wrap:wrap;
+    padding: 0 !important;
+    height: 0px;
+
+}
+
+
+.req_submenu ol a:hover,.req_submenu  .active a,.menu .menu_2 ul li a:hover,.menu .menu_2 .active{
+    color:#f8f8f8 !important;
+    background-color: #225ea0 !important;
+
+}
+.req_submenu ol a,.menu .menu_2 ul li a{
+
+    width: 115px;
+    color:  #fff;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    padding: 6px 8px;
+    color: #225ea0;
+
+}
+.active_submenu{
+    height:auto !important;
+    transition:height 1s !important;
+}
+
+.container_grilla{
+    display: flex;
+
+}
+.menu_actions{
+    width: 0%;
+    transition: width 1s;
+    overflow: hidden;
+}
+.menu_actions_active{
+    width: 10%;
+
+}
+.menu_actions ol{
+
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 209, 35);
+    list-style: none;
+}
+.menu_actions ol li{
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    /* background-color: #cacaca;*/
+    border: 1px solid #fafafa;
+    cursor: pointer;
+}
+.tabla{
+    width: 100%;
+}
+
+.titulo1{
+    background: #f0f0f0 none repeat scroll 0 0;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.container_index{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width: 70%;
+    top:10px;
+    margin: 20px auto 0 auto;
+    color: #fff;
+}
+.container_index .cuadro .info{
+    align-items: center;
+    display: flex;
+    height: 115px;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+.container_index .cuadro .conteo_registros{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.container_index .cuadro{
+    width: 200px;
+    border: 1px solid #cacaca;
+    margin: 10px;
+    box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    transition: font-size 1s;
+
+}
+
+.container_index .cuadro .icono .fa{
+    font-size: 55pt;
+}
+
+.container_index .cuadro:hover .icono i{
+    transition: font-size 1s;
+    font-size: 63pt;
+}
+
+.info-box .info-box-icon .fa{
+    font-size: 25pt;
+}
+
+.info-box:hover .info-box-icon i{
+    transition: font-size 1s;
+    font-size: 50pt;
+
+}
+
+.container_index .cuadro a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+
+
+}
+.container_index .ver_detalle{
+    display: block;
+    background-color: #fafafa;
+    color: black;
+    color: #7E7E7F;
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .container_index {
+        width: 100% !important;
+    }
+    .user_login{
+        margin-top: 6px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .user_login{
+        margin-top: 6px;
+    }
+    .container_index .cuadro{
+        width: 40% !important;
+        position: relative;
+        padding-bottom: 27px; 
+    }
+    .container_index .cuadro .info{
+        display:flex;
+        flex-wrap:wrap;
+        height: auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .container_index .ver_detalle{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .container_index {
+        width: 100% !important;
+    }
+    .menu_actions{
+        width: 0%;
+    }
+    .menu_actions_active{
+        width: 30%;
+
+    }
+    .tabla{
+        width: 100%;
+    }
+
+}

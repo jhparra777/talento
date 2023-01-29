@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐐️ triRoute</title>
+    <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+    <div class="stackedit__html">
+        <h1 id="😎-triroute">😎 triRoute</h1>
+        <blockquote>
+            <p>Es un helper creado para evitar escribir rutas o urls en las vistas, controladores o clases personalizadas.</p>
+            <p>Para que pueda ser usado en los proyectos de cada cliente en su primer actualización debe ser ejecutado en la terminal el comando de composer <strong>después del pull en git</strong>:</p>
+            <p><code>composer dump-autoload</code></p>
+            <p>Seguidamente del comando para limpiar cache de Laravel:</p>
+            <p><code>php artisan config:cache</code></p>
+            <p>Al ser creado especialmente para <strong>tri</strong> se debe usar en condicionales <code>if</code>.<br>
+                Además en esta primera versión solo debe ser usado en condicionales:</p>
+            <p><code>OR</code> ó <code>||</code></p>
+            <p>De este modo:</p>
+        </blockquote>
+        <pre><code>{{-- Ejemplo en blade --}}
+@if(triRoute::validateOR('desarrollo') || triRoute::validateOR('vym') || triRoute::validateOR('listos') ... Así sucesivamente)
+  {{-- code --}}
+@endif
+</code></pre>
+        <blockquote>
+            <p>Este helper retorna un valor booleano <code>true</code> ó <code>false</code>.</p>
+        </blockquote>
+        <h3 id="👀-uso-en-vistas-view">👀 Uso en vistas (view)</h3>
+        <blockquote>
+            <p>Para el uso en las vistas con <strong>blade</strong> no es necesario importar el helper basta con llamar la clase y la función a usar.</p>
+            <p><code>{{ triRoute::validateOR('nombre_instancia') }}</code></p>
+            <p>El parámetro <strong>nombre_instancia</strong> es el nombre del cliente en sí. Por ejemplo:</p>
+            <p><code>{{ triRoute::validateOR('desarrollo') }}</code></p>
+            <p><code>{{ triRoute::validateOR('listos') }}</code></p>
+            <p>En condicionales:</p>
+        </blockquote>
+        <pre><code>@if(triRoute::validateOR('desarrollo') || triRoute::validateOR('vym'))
+  {{-- code --}}
+@endif
+</code></pre>
+        <h3 id="⌨️-uso-en-controladores-o-clases-personalizadas">⌨️ Uso en controladores o clases personalizadas</h3>
+        <blockquote>
+            <p>Para el uso en controladores debe importarse al inicio del archivo. Por ejemplo:</p>
+        </blockquote>
+        <pre><code>&lt;?php
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+
+//Se importa
+use triRoute;
+
+class ExampleController extends Controller
+{
+    public function example()
+    {
+      //Se usa
+      if(triRoute::validateOR('desarrollo') || triRoute::validateOR('vym')) {
+          //code
+        }
+    }
+}
+?&gt;
+</code></pre>
+        <br>
+        Made by development team
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,414 @@
+div.growlUI { background: url(http://www.cleanmatic.cl/wp-content/uploads/2015/02/check.png) no-repeat 10px 10px }
+div.growlUI h1, div.growlUI h2 {
+    color: white; padding: 5px 5px 5px 75px; text-align: left
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./icomoon/fonts/icomoon.eot');
+  src:  url('./icomoon/fonts/icomoon.eot') format('embedded-opentype'),
+    url('./icomoon/fonts/icomoon.ttf') format('truetype'),
+    url('./icomoon/fonts/icomoon.woff') format('woff'),
+    url('./icomoon/fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' ;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-datos .path1:before {
+  content: "\e900";
+  color: rgb(44, 47, 51);
+}
+.icon-datos .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-datos .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-datos .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-datos .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-datos .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-entrevistas .path1:before {
+  content: "\e906";
+  color: rgb(255, 255, 255);
+}
+.icon-entrevistas .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-entrevistas .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-entrevistas .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-entrevistas .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-entrevistas .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-entrevistas .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-matriz .path1:before {
+  content: "\e90d";
+  color: rgb(44, 47, 51);
+}
+.icon-matriz .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-mc .path1:before {
+  content: "\e90f";
+  color: rgb(44, 47, 51);
+}
+.icon-mc .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-oc .path1:before {
+  content: "\e911";
+  color: rgb(44, 47, 51);
+}
+.icon-oc .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-oc .path3:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.icon-oc .path4:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-perfil2 .path1:before {
+  content: "\e915";
+  color: rgb(44, 47, 51);
+}
+.icon-perfil2 .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-perfil2 .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-perfil2 .path4:before {
+  content: "\e918";
+  margin-left: -1em;
+  color:  rgb(44, 47, 51);
+}
+.icon-pruebas .path1:before {
+  content: "\e919";
+  color: rgb(44, 47, 51);
+}
+.icon-pruebas .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-pruebas .path3:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-pruebas .path4:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-pruebas .path5:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-pruebas .path6:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-pruebas .path7:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-pruebas .path8:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-refenciacion .path1:before {
+  content: "\e921";
+  color: rgb(44, 47, 51);
+}
+.icon-refenciacion .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-refenciacion .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-status .path1:before {
+  content: "\e924";
+  color: rgb(44, 47, 51);
+}
+.icon-status .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-status .path3:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-status .path4:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-status .path5:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-status .path6:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-status .path7:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+.icon-status .path8:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(44, 47, 51);
+}
+
+.icon-searh .path1:before {
+  content: "\e911";
+  color: #2c2f33;
+}
+.icon-searh .path2:before {
+  content: "\e912";
+  color: #2c2f33;
+  margin-left: -1em;
+}
+.icon-searh .path3:before {
+  content: "\e913";
+  color: #2c2f33;
+  margin-left: -1em;
+}
+
+
+  .ejem i{
+      font-size: 100px;
+  }
+
+  .ejem i {
+    border:3px solid ;
+    border-radius: 200px;
+    display: table;
+ }
+
+ 
+
+  .ejem  {
+    height: 180px;
+    border-top: 0px;
+   
+    border: 0px;
+    
+    background: #ffffff00;
+ 
+ }
+  
+ .ejem:hover > i {
+    border:3px solid #FC165D ;
+ }
+
+
+ /* ----------------------hovewr 1----------------------- */
+
+ .ejem:hover >  .icon-perfil2 .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover >  .icon-perfil2 .path4:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+
+}
+
+/* ----------------------hovewr 2----------------------- */
+
+.ejem:hover > .icon-matriz .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+
+/* ----------------------hovewr 3----------------------- */
+
+.ejem:hover > .icon-datos .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+
+/* ---------------------------hover 4-------------------------------- */
+
+.ejem:hover > .icon-entrevistas .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-entrevistas .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-entrevistas .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-entrevistas .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+/* ------------------------------------hover 5--------------------------------------- */
+
+.ejem:hover > .icon-status .path1:before {
+  content: "\e924";
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-status .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-status .path3:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-status .path4:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-status .path5:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-status .path6:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+/* ---------------------------------------------------------- */
+
+.ejem:hover > .icon-pruebas .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-pruebas .path3:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+.ejem:hover > .icon-pruebas .path4:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+/* ------------------------------------------------------------- */
+
+.ejem:hover > .icon-refenciacion .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(252, 22, 93);
+}
+
+/* ---------------------------------------------------------------- */
+
+.ejem:hover >  .icon-mc .path1:before {
+  content: "\e90f";
+  color: rgb(252, 22, 93);
+}
+/* -------------------------------------------------------------------------- */
+
+.ejem:hover >  .icon-searh .path3:before {
+  content: "\e913";
+  color: #fc165d;
+  margin-left: -1em;
+}
+
+.ejem  {
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 900;
+}

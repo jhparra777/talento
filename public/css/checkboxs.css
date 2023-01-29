@@ -1,0 +1,77 @@
+.switchBtn {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+}
+
+.switchBtn input {display:none;}
+
+.slide {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding: 8px;
+    color: #fff;
+    border-radius: 30px;
+}
+.slide:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 78px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.slide:after {
+    position: absolute;
+    content: "NO APTO";
+}
+
+input:checked + .slide {
+    background-color: #8CE196;
+    padding-left: 40px;
+}
+
+input:checked + .slide:after {
+   content: "APTO";
+}
+
+input:focus + .slide {
+    box-shadow: 0 0 1px #01aeed;
+}
+input:checked + .slide:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    left: -20px;
+    box-shadow: 10px 10px 20px green inset;
+
+}
+
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+
+.si_no + .slide:after {
+    position: absolute;
+    content: "" !important;
+}
+
+.si_no:checked + .slide:after {
+   content: ""  !important;
+   right:20px;
+}

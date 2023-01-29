@@ -1,0 +1,1027 @@
+html{
+    overflow-x: hidden;
+}
+#img-listos-logo {
+    margin-left: -35px !important;
+    margin-top: -40px;
+}
+#img_pqr{
+    margin-top: -49px;
+}
+.nav-inicio{
+    background: transparent;
+    border: none;
+    font-size: large;
+    margin-top: 34px;
+    margin-left: -111px;
+}
+#carouselExampleIndicators{
+    margin: auto;
+}
+
+.white{
+    color: white;
+    transition: all 300ms ease;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #d12626;
+    font-size: 22px;
+}
+.navbar-default .navbar-brand {
+    color: #d12626;
+    font-size: 28px;
+}
+.dropdown-menu {
+    background-color: #fd302f;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #818285;
+    white-space: nowrap;
+    font-size: 17px;
+}
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #f4f4f4;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #f5f5f5;
+}
+
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+    display:        inline;
+    color:          red;                        
+
+    font-size:      30px !important;
+    padding:        5px 20px !important;
+}
+
+.fot-w7{
+    font-family: "Lato", Verdana, Tahoma ;
+}
+.fot-w10{
+
+    font-family: "Lato", Verdana, Tahoma !important;
+}
+
+/* Adjust Menu colors - Normal */
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter {
+    color:          #818285;
+    text-shadow:    none;
+}
+/* Adjust Menu colors - Hover */
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover:first-letter { 
+    color:          white;                      
+    text-shadow:    none;
+}
+/* Adjust Menu colors - Active */
+.navbar .nav > li > a:active, .navbar .nav > li > a:active:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a,
+.navbar .nav > li.current-menu-item > a:first-letter, 
+.navbar .nav > li.current-menu-ancestor > a:first-letter {
+    color:          blue;
+    text-shadow:    none;
+}
+
+
+/* Remove the Hover/Focus Colors  */
+.navbar .nav > li.current-menu-item > a, .navbar .nav > li.current-menu-ancestor > a, 
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+    color:          #5A5A5A;
+}
+
+.nav.navbar-nav.navbar-right li a span{
+    color: blue;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: -25px;
+    margin-left: 42px;
+}
+.m-ul-nav{
+    margin-left: 139px;
+}
+.li-color{
+    background-color: rgba(194, 38, 37, 0.27);
+}
+.li-clear-color{
+    background-color: rgba(255, 255, 255, .15);
+}
+
+@media (max-width:767px)
+{
+
+    .hidden-m-nav-xs
+    {
+        margin-left: -119px !important; ;
+    }
+
+    .nav-inicio{
+        background: transparent !important;
+        border: none !important;
+        font-size: large !important;
+        margin-top: 59px !important;
+        margin-left: -72px !important;
+    }
+
+    .hidden-m-Headernav-xs
+    {
+        margin-top: -140px;
+    }
+
+    #td1{
+        widows: 150px;
+    }
+    .m-ul-nav {
+        margin-left: 161px !important;
+    }
+    #p-zona-admin {
+        margin-left: 204px !important;
+        font-size: 13px !important;
+        color: #818285;
+        margin-top: -163px !important;
+        position: absolute !important;
+    }
+    #p-zona-mision {
+        margin-left: 204px !important;
+        font-size: 13px !important;
+        color: #818285;
+        margin-top: -131px !important;
+        position: absolute !important;
+    }
+
+    #circularElectronica {
+        margin-left: 204px !important;
+        font-size: 13px !important;
+        color: #818285;
+        margin-top: -94px !important;
+        position: absolute !important;
+    }
+
+
+    .container {
+
+    }
+
+    #nav-header{
+        margin-top: -94px;
+    }
+
+    #row-top{
+        margin-top: -46px;
+    }
+
+    #img-listos-logo {
+        margin-left: -4px !important;
+        margin-top: -6px;
+    }
+
+    #img-zona-aspirante{
+        margin-top: -113px !important;
+        position: absolute !important;
+        margin-left: 182px !important;
+        z-index: 4 !important;
+        position: fixed !important;
+        top: 310px !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        width: 138px !important;
+    }
+    #img-Proteccion-Datos{
+        margin-top: -153px !important;
+        position: absolute !important;
+        margin-left: 182px !important;
+        z-index: 4 !important;
+        position: fixed !important;
+        top: 310px !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        width: 138px !important;
+    }
+
+    #img-zona-empleo{
+        margin-top: 47px !important;
+        position: absolute !important;
+        margin-left: 184px !important;
+        z-index: 4 !important;
+        position: fixed !important;
+        top: 256px !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        width: 141px !important;
+    }
+
+    #img-zona-cliente{
+        position: absolute;
+        margin-left: 214px;
+        margin-top: -42px;
+        width: 133px;
+    }
+
+    #p-contador{
+        margin-top: 2px !important;
+        position: absolute !important;
+        padding-left: 161px !important;
+        color: white !important;
+        font-size: 28px !important;
+    }
+
+
+
+}
+
+
+.row-icon-estelar{
+    margin-left: 13px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown-submenu:hover > a:after {
+
+}
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+}
+
+.dropdown-submenu{
+    position: static;
+}
+
+#body{
+    background: rgb(244, 244, 244);
+    overflow-x: hidden;
+}
+
+
+#img-footer{
+    margin: auto;
+
+}
+
+#form-inline-footer{
+
+}
+
+.imgs-div-footer{
+    margin: auto;
+}
+
+#img-zona-aspirante{
+
+    margin-top: -113px;
+    position: absolute;
+    margin-left: 184px;
+    z-index: 4;
+    position: fixed;
+    top: 277px;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+}
+#img-Proteccion-Datos{
+
+    margin-top: -153px;
+    position: absolute;
+    margin-left: 184px;
+    z-index: 4;
+    position: fixed;
+    top: 277px;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+}
+
+#img-zona-empleo {
+    margin-top: 47px;
+    position: absolute;
+    margin-left: 184px;
+    z-index: 4;
+    position: fixed;
+    top: 277px;
+    bottom: 0;
+    right: 0;
+    width: 208px;
+}
+
+#img-zona-cliente{
+    position: absolute;
+    margin-left: 736px;
+    margin-top: -58px;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(../../libs/fuentes/lato-Bold.ttf) format("truetype");
+}
+
+
+customfont { 
+    font-family: "Lato", Verdana, Tahoma;
+}
+
+#img-listos-logo-ws{
+    margin-top: 240px;
+    position: absolute;
+    margin-left: 184px;
+    z-index: 4;
+    position: fixed;
+
+    bottom: 0;
+    right: 5px;
+    width: 90px;
+}
+
+#h4-zona-admin{
+    color: #777;
+    font-size: 22px;
+    margin-left: 600px;
+}
+
+.img-animation{
+    font-size:30px;
+    margin:5px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.img_anm:hover{
+
+    transform: scale(1.1);
+}
+
+
+
+
+#p-contador{
+    margin-top: 26px;
+    position: absolute;
+    padding-left: 506px;
+    color: white;
+    font-size: 61px;
+
+}
+
+#p-num-contratos{
+
+    margin-top: 103px;
+    position: absolute;
+    padding-left: 421px;
+    font-size: 16px;
+    color: white;
+
+}
+
+@media (min-width: 1200px) and (max-width: 3000px)
+{
+
+    #p-zona-mision {
+        margin-left: 626px !important;
+        font-size: 19px !important;
+        color: #818285;
+        margin-top: 13px !important;
+        position: absolute !important;
+    }
+
+    #p-zona-admin {
+        margin-left: 626px !important;
+        font-size: 19px !important;
+        color: #818285;
+        margin-top: -15px !important;
+        position: absolute !important;
+    }
+
+    #circularElectronica {
+        margin-left: 626px !important;
+        font-size: 19px !important;
+        color: #818285;
+        margin-top: 42px !important;
+        position: absolute !important;
+    }
+}
+
+
+
+.nav > li {
+    position: relative;
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+}
+
+
+@media (max-width:1000px)  and (min-width: 767px)
+{
+    #img_pqr{
+        margin-left: 477px;
+        margin-top: -83px;
+    }
+    #img-listos-logo-proteccion {
+        margin-top: 175px;
+        position: absolute;
+        margin-left: 184px;
+        z-index: 4;
+        position: fixed;
+        top: 277px;
+        bottom: 0;
+        right: 5px;
+        width: 200px;
+    }
+
+    #p-zona-mision{
+        margin-left: 304px !important;
+        font-size: 19px !important;
+        color: #818285;
+        margin-top: -76px !important;
+        position: absolute !important;
+    }    
+
+    .navbar .nav > li > a {
+        font-size: 17px !important;
+    }
+
+    .nav-inicio {
+        background: transparent;
+        border: none;
+        font-size: large;
+        margin-top: 6px;
+        margin-left: -111px;
+    }
+
+    #p-zona-admin {
+        margin-left: 556px !important;
+        font-size: 19px !important;
+        color: #818285;
+        margin-top: -76px !important;
+        position: absolute !important;
+    }
+    #p-contador {
+        margin-top: 1px;
+        position: absolute;
+        padding-left: 288px;
+        color: white;
+        font-size: 61px;
+    }
+    #p-num-contratos {
+        margin-top: 71px;
+        position: absolute;
+        padding-left: 261px;
+        font-size: 10px;
+        color: white;
+    }
+
+
+
+    #circularElectronica {
+        margin-left: 302px !important;
+        font-size: 19px !important;
+        color: #818285;
+        margin-top: -45px !important;
+        position: absolute !important;
+    }
+
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 1200px)
+{
+    #img_pqr{
+        margin-top: -49px;
+    }
+    #img-listos-logo-proteccion {
+        width: 100px;
+        height: 60px;
+        margin-top: 200px;
+        margin-left: 402px;
+        position: fixed;
+        float: left;
+    }
+
+    #p-zona-mision{
+        margin-left: 640px !important;
+        font-size: 18px !important;
+        color: #818285;
+        margin-top: -148px !important;
+        position: absolute !important;
+    }
+
+    #p-zona-admin {
+        margin-left: 642px !important;
+        font-size: 19px !important;
+        color: #818285;
+        margin-top: -186px !important;
+        position: absolute !important;
+    }
+
+    #circularElectronica {
+        margin-left: 641px !important;
+        font-size: 19px !important;
+        color: #818285;
+        margin-top: -108px !important;
+        position: absolute !important;
+    }
+
+    #p-contador {
+        margin-top: 12px;
+        position: absolute;
+        padding-left: 398px;
+        color: white;
+        font-size: 61px;
+    }
+    #p-num-contratos {
+        margin-top: 84px;
+        position: absolute;
+        padding-left: 326px;
+        font-size: 14px;
+        color: white;
+    }
+
+    .nav-inicio {
+        background: transparent;
+        border: none;
+        font-size: large;
+        margin-top: -75px;
+        margin-left: 23px;
+    }
+
+}
+
+.m-ul-nav {
+    margin-left: 12px ;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.popover-title {
+    color: #fd302f;
+    font-size: 19px;
+    font-family: "Lato", Verdana, Tahoma !important;
+
+}
+.popover-content {
+    color: #818285;
+    font-size: 15px;
+    font-family: "Lato", Verdana, Tahoma !important;
+
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background-color: white;
+}
+
+#divFormulario{
+    padding-left: 86px;
+}
+@media screen and (max-width: 768px) {
+
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        margin-right: -38px;
+        margin-left: 6px;
+    }
+
+    #divFormulario{
+        padding-left: 26px;
+    }
+
+    #carouselExampleIndicators2{
+        margin-top: 33px;
+    }
+}
+@media screen and (min-width: 992px) {
+
+    .dropdown-submenu {
+        position: relative;
+    }
+
+
+    .dropdown-submenu:hover>.dropdown-menu {
+        display: block;
+    }
+    #submenu2{
+        margin-left: -490px;
+    }
+    #submenu3{
+        margin-left: -520px;
+        top: 89px;
+    }
+
+
+    .dropdown-submenu:hover>a:after {
+        border-left-color: #ffffff;
+    }
+
+    .dropdown-submenu.pull-left {
+        float: none;
+    }
+
+    .dropdown-submenu.pull-left>.dropdown-menu {
+        left: -100%;
+        margin-left: 10px;
+        -webkit-border-radius: 6px 6px 6px 6px;
+        -moz-border-radius: 6px 6px 6px 6px;
+        border-radius: 6px 6px 6px 6px;
+    }
+    .dropdown-menu-right {margin-left:0;}
+    .topnav a {
+        float: left;
+        display: block;
+        color: #fd302f;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
+    }
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #d12626;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid #fd302f;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.bg-dark {
+    background-color: #ffffff!important;
+}
+
+.navbar-nav .nav-link {
+
+    color: black !important;
+    font-size: 21px;
+}
+.dropdown-menu {
+    background-color: #f4f4f4;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #d12626;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+
+#rowSueÃ±os{
+    background-color: #261b2e;
+    color: white;
+    height: 87px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white !important;
+}
+
+.h2{
+    font-weight: 900;
+    color: #261b2e;
+}
+
+.vl {
+    border-right:  6px solid white;
+    height: 500px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+#iframeVideo{
+    margin: auto;
+}
+
+a:hover {
+    color: #d12626;
+    text-decoration: underline;
+}
+
+
+#submenu1{
+    left: 0% !important;
+    top: 52px !important;
+}
+
+.wrap {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.mat-label {
+    display: block;
+    font-size: 16px;
+    transform: translateY(25px);
+    color: #e2e2e2;
+    transition: all 0.5s;
+}
+
+.mat-input {
+    position: relative;
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0;
+    font-size: 18px;
+    color: white;
+}
+
+.mat-div {
+    padding: 30px 0 0 0;
+    position: relative;
+}
+
+.mat-div:after, .mat-div:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #e2e2e2; 
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.mat-div::after {
+    background-color: #fd302f;
+    transform: scaleX(0);
+}
+
+.is-active::after {
+    transform: scaleX(1);
+}
+
+.is-active .mat-label {
+    color: white;
+}
+
+.is-completed .mat-label {
+    font-size: 12px;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+.mat-label2 {
+    display: block;
+    font-size: 16px;
+    transform: translateY(25px);
+    color: #fd302f;
+    transition: all 0.5s;
+}
+
+.mat-input2 {
+    position: relative;
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0;
+    font-size: 18px;
+    color: black;
+}
+
+.mat-div2 {
+    padding: 30px 0 0 0;
+    position: relative;
+}
+
+.mat-div2:after, .mat-div2:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fd302f; 
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.mat-div2::after {
+    background-color: #fd302f;
+    transform: scaleX(0);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.aZonaAspirante{
+    font-size: 17px; 
+    color: white;
+    text-align: center;
+}
+
+.dark-theme{
+    background-color: rgb(38, 27, 46);
+}
+
+.form-control:focus {
+    font-size: 14px;
+    color: #030303;
+    background-color: #fff0;
+    border-color: #6889ad29;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+}
+.form-control {
+    font-size: 14px;
+    
+}
+
+#aZonaEmpresas{
+    background: #fd302f;
+    color: white !important;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#img-listos-logo-proteccion{
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 184px;
+    z-index: 4;
+    position: fixed;
+
+    bottom: 80px;
+    right: 5px;
+    width: 98px;
+}
+
+
+
+/*** ofertas ***/
+.job-list {
+    border: 1px solid #f1f1f1;
+    padding: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.job-list .thumb {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.job-list .job-list-content {
+    display: block;
+    margin-left: 180px;
+    position: relative;
+}
+.job-list .job-list-content h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.job-list .job-list-content p {
+    margin-bottom: 20px;
+}
+.job-list .job-tag {
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+    line-height: 35px;
+}
+.job-list .job-tag .meta-tag span {
+    font-size: 14px;
+    color: #999;
+    margin-right: 10px;
+}
+.job-list .job-tag .meta-tag span i {
+    margin-right: 5px;
+}
+.job-list-content h5 a{
+    color: #444;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.job-list-content h5 a:hover{
+    color: #fd302f;
+    text-decoration: none;
+
+}
+.btn-common {
+    background-color: #fd302f;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+}
+.btn-common:hover{
+color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.btn-rm {
+    width: 100%;
+    margin: 0 0 20px;
+    letter-spacing: 1;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.paginacion .page-item.active .page-link{
+    background-color: #28a546;
+    border-color: #28a546;
+}
+
+.paginacion  .page-link{
+    color:#28a546;  
+}
+
+
+/**** responbsive ***/
+
+@media (max-width: 600px) {
+
+.job-list .thumb {
+    float: none;
+    width: auto;
+}
+.job-list .job-list-content{
+    margin-left: 0;
+}
+}
+.proceso-backup{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    left: 16px;
+    padding: 6px 12px;
+    border-radius: 0 15px 15px 0px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 1px;
+}

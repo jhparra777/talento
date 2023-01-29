@@ -1,0 +1,321 @@
+@import "variables";
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$icomoon-font-path}/icomoon.eot?gqlxgt');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?gqlxgt#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?gqlxgt') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?gqlxgt') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?gqlxgt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-searh .path1 {
+  &:before {
+    content: $icon-searh-path1;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-searh .path2 {
+  &:before {
+    content: $icon-searh-path2;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-searh .path3 {
+  &:before {
+    content: $icon-searh-path3;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-datos .path1 {
+  &:before {
+    content: $icon-datos-path1;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-datos .path2 {
+  &:before {
+    content: $icon-datos-path2;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-datos .path3 {
+  &:before {
+    content: $icon-datos-path3;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-datos .path4 {
+  &:before {
+    content: $icon-datos-path4;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-datos .path5 {
+  &:before {
+    content: $icon-datos-path5;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-datos .path6 {
+  &:before {
+    content: $icon-datos-path6;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-entrevistas .path1 {
+  &:before {
+    content: $icon-entrevistas-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-entrevistas .path2 {
+  &:before {
+    content: $icon-entrevistas-path2;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-entrevistas .path3 {
+  &:before {
+    content: $icon-entrevistas-path3;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-entrevistas .path4 {
+  &:before {
+    content: $icon-entrevistas-path4;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-entrevistas .path5 {
+  &:before {
+    content: $icon-entrevistas-path5;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-entrevistas .path6 {
+  &:before {
+    content: $icon-entrevistas-path6;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-entrevistas .path7 {
+  &:before {
+    content: $icon-entrevistas-path7;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-matriz .path1 {
+  &:before {
+    content: $icon-matriz-path1;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-matriz .path2 {
+  &:before {
+    content: $icon-matriz-path2;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-mc .path1 {
+  &:before {
+    content: $icon-mc-path1;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-mc .path2 {
+  &:before {
+    content: $icon-mc-path2;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-perfil2 .path1 {
+  &:before {
+    content: $icon-perfil2-path1;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-perfil2 .path2 {
+  &:before {
+    content: $icon-perfil2-path2;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-perfil2 .path3 {
+  &:before {
+    content: $icon-perfil2-path3;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-perfil2 .path4 {
+  &:before {
+    content: $icon-perfil2-path4;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-pruebas .path1 {
+  &:before {
+    content: $icon-pruebas-path1;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-pruebas .path2 {
+  &:before {
+    content: $icon-pruebas-path2;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-pruebas .path3 {
+  &:before {
+    content: $icon-pruebas-path3;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-pruebas .path4 {
+  &:before {
+    content: $icon-pruebas-path4;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-pruebas .path5 {
+  &:before {
+    content: $icon-pruebas-path5;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-pruebas .path6 {
+  &:before {
+    content: $icon-pruebas-path6;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-pruebas .path7 {
+  &:before {
+    content: $icon-pruebas-path7;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-pruebas .path8 {
+  &:before {
+    content: $icon-pruebas-path8;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-refenciacion .path1 {
+  &:before {
+    content: $icon-refenciacion-path1;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-refenciacion .path2 {
+  &:before {
+    content: $icon-refenciacion-path2;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-refenciacion .path3 {
+  &:before {
+    content: $icon-refenciacion-path3;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-status .path1 {
+  &:before {
+    content: $icon-status-path1;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-status .path2 {
+  &:before {
+    content: $icon-status-path2;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-status .path3 {
+  &:before {
+    content: $icon-status-path3;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-status .path4 {
+  &:before {
+    content: $icon-status-path4;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-status .path5 {
+  &:before {
+    content: $icon-status-path5;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-status .path6 {
+  &:before {
+    content: $icon-status-path6;  
+    margin-left: -1em;  
+    color: rgb(252, 22, 93);
+  }
+}
+.icon-status .path7 {
+  &:before {
+    content: $icon-status-path7;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+.icon-status .path8 {
+  &:before {
+    content: $icon-status-path8;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 51);
+  }
+}
+
